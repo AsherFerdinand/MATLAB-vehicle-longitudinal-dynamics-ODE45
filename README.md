@@ -36,40 +36,12 @@ The main simulation states are:
 
 The simulation results are visualized through plots showing vehicle speed, wheel speed, tire forces, axle loads, slip, acceleration, tire deformation, and traction limits.
 
-## Project Structure
-
-```text
-vehicle-longitudinal-dynamics/
-├── README.md
-├── src/
-│   ├── main.m
-│   ├── LDyn_Ex2.m
-│   └── ReifenModell_1D.m
-└── results/
-```
 
 ## Requirements
 
 * MATLAB
 * MATLAB ODE45 solver
 * The required vehicle and tire model functions included in this repository
-
-## Running the Simulation
-
-Clone the repository and open it in MATLAB:
-
-```bash
-git clone https://github.com/<username>/vehicle-longitudinal-dynamics.git
-cd vehicle-longitudinal-dynamics
-```
-
-Run the main script:
-
-```matlab
-main
-```
-
-The simulation will run for the configured simulation time and generate plots of the vehicle dynamics.
 
 ## Goal
 
